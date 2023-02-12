@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Var colors */
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    /* font-family and sizes */
+    --family: 'Outfit', sans-serif;
+    --font-size-paragraph: 15px;
+
+    /* Padding content */
+    --padding-hero: 1rem;
+    --padding-text: 0 1rem;
+}
+
+body{
+    background-color: var(--light-gray);
+    font-family: var(--family);
+}
+
+p{
+    font-size: var(--font-size-paragraph);
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
+
+h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.hero_container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_card{
+    width: 300px;
+    height: 500px;
+    padding: 0.1px;
+    border-radius: 20px;
+    background-color: var(--white);
+    box-shadow: 2px 2px 4px var(--dark-blue);
+    overflow: hidden;
+}
+
+.hero_img{
+    width: 100%;
+    height: 60%;
+    padding: var(--padding-hero);
+    border-radius: 8%;
+}
+
+.hero_info_container{
+    padding: var(--padding-hero);
+}
+
+.hero_text{
+    padding: var(--padding-text);
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+.grid_cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1444px;
+    margin: 1rem;
+}
+
+.attribution{
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--dark-blue);
+}
