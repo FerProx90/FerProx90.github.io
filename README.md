@@ -35,7 +35,7 @@ Use of CSS variables and flex-box due to know how to use it and the way this CSS
 ### Continued development
 
 I'll be keeping forward with all knowledge left to learn, having a better control of flex-box and grid displays.
-Also learning web design with coding lenguages like Javascript, Python, C# and whatever I'm capable to learn.
+Also learning web design with coding lenguages like Javascript to be a Front-end Developer
 
 ## Author
 
